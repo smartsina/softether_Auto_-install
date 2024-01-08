@@ -44,7 +44,15 @@ display_fancy_progress() {
 
 logo() {
     echo -e "\n${BLUE}
-    smartsina
+      ________  ___      ___       __        _______  ___________       ________  __    _____  ___        __      
+ /"       )|"  \    /"  |     /""\      /"      \("     _   ")     /"       )|" \  (\"   \|"  \      /""\     
+(:   \___/  \   \  //   |    /    \    |:        |)__/  \\__/     (:   \___/ ||  | |.\\   \    |    /    \    
+ \___  \    /\\  \/.    |   /' /\  \   |_____/   )   \\_ /         \___  \   |:  | |: \.   \\  |   /' /\  \   
+  __/  \\  |: \.        |  //  __'  \   //      /    |.  |          __/  \\  |.  | |.  \    \. |  //  __'  \  
+ /" \   :) |.  \    /:  | /   /  \\  \ |:  __   \    \:  |         /" \   :) /\  |\|    \    \ | /   /  \\  \ 
+(_______/  |___|\__/|___|(___/    \___)|__|  \___)    \__|        (_______/ (__\_|_)\___|\____\)(___/    \___)
+                                                                                                              
+
     ${NC}\n"
 }
 
@@ -723,7 +731,7 @@ while true; do
     clear
     # Calculate the padding for adjusting the title position
     title_text="softether vpn server Installation and Configuration"
-    tg_title="TG-Group @OPIranCluB"
+    tg_title=""
     yt_title="youtube.com/@opiran-inistitute"
     clear
     echo -e "                 ${MAGENTA}${title_text}${NC}"
@@ -777,7 +785,7 @@ while true; do
         6)
         clear
             title_text="6to4 IPV6 Menu"
-            tg_title="TG-Group @OPIranCluB"
+            
             yt_title="youtube.com/@opiran-inistitute"
 
             clear
@@ -818,7 +826,7 @@ while true; do
         7)
         clear
             title_text="Extra IPV6 Menu"
-            tg_title="TG-Group @OPIranCluB"
+            tg_title=""
             yt_title="youtube.com/@opiran-inistitute"
 
             clear
